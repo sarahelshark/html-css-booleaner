@@ -1,0 +1,29 @@
+/*#region common*/
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --header-color: rgb(76,164,252);
+    --table-color: rgb(177,229,242,255);
+    --table-color2: rgb(32,169,229,255);
+}
+
+/* #region header*/ 
+#site_header {
+    background-color: var(--header-color);
+    background-image: url(./img/pattern.png);
+    background-size: 275px;
+    background-repeat: repeat-x;
+}
+
+.booleaner_img{
+    width: 150px;
+    margin-left: 16px ;
+    margin-top: 26px
+    ;
+}
