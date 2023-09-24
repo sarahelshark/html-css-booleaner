@@ -12,6 +12,7 @@
     --table-color: rgb(177,229,242,255);
     --table-color2: rgb(32,169,229,255);
     --caption-color: rgb(163, 159, 158);
+    --highlight-color:rgb(255, 252, 4) ;
 }
 
 /*#region header*/ 
@@ -56,7 +57,8 @@ h1{
 }
 
 
-/* #img containers + captions */
+/* #fine titolo articolo */
+
 .first_pic{
 
     display:inline-block;
@@ -91,3 +93,35 @@ h1{
     margin-bottom: 37px;
     width: 178%;
 }
+
+/* #fine intestazione principale */
+
+
+.highlight{
+    background-color:var(--highlight-color);
+}
+
+.corpo_centrale{
+   width: 1108px;
+   margin-left: 1rem;
+}
+
+/* #fine primo paragrafo informativo */
+
+.elenco_centrale{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* fine lista riepilogativa*/
+
+
+
+/* #fine tabella riepilogativa*/
+
+
+/*fine ultimo paragrafo informativo*/
+
+
+/* #fine site footer/
+
