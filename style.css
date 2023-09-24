@@ -12,7 +12,8 @@
     --table-color: rgb(177,229,242,255);
     --table-color2: rgb(32,169,229,255);
     --caption-color: rgb(163, 159, 158);
-    --highlight-color:rgb(255, 252, 4) ;
+    --highlight-color:rgb(255, 252, 4);
+    --white-color: rgb(255,255,255);
 }
 
 /*#region header*/ 
@@ -115,10 +116,36 @@ h1{
 
 /* fine lista riepilogativa*/
 
+#table {
+    margin-left: 1rem;
+    padding: 0;
+  }  
+
+.table-container{
+    width:1108px;
+    height: 13rem;
+}
+
+.t-head td{
+    width: 1108rem;
+    outline-color: var(--header-color);
+}
+
+.t-title{
+    background-color: var(--header-color) ;
+    color: var(--white-color);
+}
+
+.table-2-color{
+    background-color: var(--table-color);
+}
 
 
 /* #fine tabella riepilogativa*/
-
+.last-para{
+    width: 1108px;
+    margin-left: 1rem;
+}
 
 /*fine ultimo paragrafo informativo*/
 
