@@ -11,9 +11,10 @@
     --header-color: rgb(76,164,252);
     --table-color: rgb(177,229,242,255);
     --table-color2: rgb(32,169,229,255);
+    --caption-color: rgb(163, 159, 158);
 }
 
-/* #region header*/ 
+/*#region header*/ 
 #site_header {
     background-color: var(--header-color);
     background-image: url(./img/pattern.png);
@@ -26,4 +27,67 @@
     margin-left: 16px ;
     margin-top: 26px
     ;
+}
+
+/*#region main*/
+
+.article_title{
+    width: 100%;
+}
+
+h1{
+    margin-left: 16px ;
+    margin-top: 16px;
+}
+
+.author{
+    margin-left: 16px;
+    color:var(--caption-color)
+}
+
+.link_autore{
+    text-decoration: none;
+    color:var(--header-color)
+}
+
+.time{
+    margin-left: 16px;
+    color:var(--caption-color)
+}
+
+
+/* #img containers + captions */
+.first_pic{
+
+    display:inline-block;
+    width: 30%;
+    min-height: 100px;
+    margin-right: 10px;
+}
+
+.second_pic{
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+    ;
+}
+
+
+.image-container {
+  display: flex; /* Make the container a flex container */
+  align-items: center; /* Vertically center items in the container */
+}
+
+.image-with-caption {
+  margin-left: 1rem; 
+  width: 100%;
+}
+
+.caption {
+    color:var(--caption-color) 
+}
+
+.image-without-caption {
+    margin-bottom: 37px;
+    width: 178%;
 }
