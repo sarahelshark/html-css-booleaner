@@ -166,8 +166,8 @@ h3{
     width: 16rem;
     height: 13rem;
     background-image: url(./img/monitor.jpg);
-    background-size:auto
-    ;
+    background-size:auto ;
+    text-indent: 1rem;
 
 }
 
@@ -179,6 +179,7 @@ h3{
     height: 13rem;
     background-image: url(./img/graph.jpg);
     background-size: auto;
+    text-indent: 1rem;
 }
 /* #fine site footer/
 
