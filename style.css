@@ -149,6 +149,36 @@ h1{
 
 /*fine ultimo paragrafo informativo*/
 
+#site_footer{
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
 
+h3{
+    color: var(--caption-color);
+}
+
+
+.link-lorem{
+    display: inline-block ;
+    text-decoration: none;
+    color:var(--white-color);
+    width: 16rem;
+    height: 13rem;
+    background-image: url(./img/monitor.jpg);
+    background-size:auto
+    ;
+
+}
+
+.link-lorem2{
+    display: inline-block ;
+    text-decoration: none;
+    color:var(--white-color);
+    width: 16rem;
+    height: 13rem;
+    background-image: url(./img/graph.jpg);
+    background-size: auto;
+}
 /* #fine site footer/
 
